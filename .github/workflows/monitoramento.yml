@@ -1,0 +1,34 @@
+name: Monitoramento de Logs
+
+on:
+  push:
+    branches: [ main ]  # Quando fizer um push para a branch main
+  schedule:
+    - cron: '*/5 * * * *'  # A cada 5 minutos
+
+jobs:
+  monitorar:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar o repositório
+      uses: actions/checkout@v3
+
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Executar script de coleta
+      run: python coletar_logs.py
+
+    - name: Executar script de detecção
+      run: python detectar_incidentes.py
+
+    - name: Commit e push dos resultados
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        git add incidentes.csv logs_filtrados.csv
+        git commit -m "Atualização automática via GitHub Actions" || echo "Sem mudanças"
+        git push
