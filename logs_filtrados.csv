@@ -1,0 +1,30 @@
+Data,Usuário,IP,Mensagem
+2025-06-02T10:45:05.934764-04:00 kali sshd-session[19064]:,usuarioinvalido,10.0.2.15,Failed password for invalid user usuarioinvalido from 10.0.2.15 port 48202 ssh2
+2025-06-02T15:39:52.375627-04:00 kali sshd-session[170649]:,usuarioinvalido,::1,1 port 55144 ssh2
+2025-06-02T15:39:55.315021-04:00 kali sshd-session[170649]:,usuarioinvalido,::1,1 port 55144 ssh2
+2025-06-02T15:39:58.537173-04:00 kali sshd-session[170649]:,usuarioinvalido,::1,1 port 55144 ssh2
+2025-06-02T15:39:58.787100-04:00 kali sshd-session[170649]:,usuarioinvalido,desconhecido,1 port 55144 [preauth]
+2025-06-02T15:40:03.231443-04:00 kali sshd-session[170756]:,usuarioinvalido,::1,1 port 41124 ssh2
+2025-06-02T15:40:04.227296-04:00 kali sshd-session[170756]:,usuarioinvalido,::1,1 port 41124 ssh2
+2025-06-02T15:40:04.468812-04:00 kali sshd-session[170756]:,usuarioinvalido,::1,1 port 41124 ssh2
+2025-06-02T15:40:04.481819-04:00 kali sshd-session[170756]:,usuarioinvalido,desconhecido,1 port 41124 [preauth]
+2025-06-02T15:40:04.715792-04:00 kali sshd-session[170804]:,usuarioinvalido,::1,1 port 52218 ssh2
+2025-06-02T15:40:04.965278-04:00 kali sshd-session[170804]:,usuarioinvalido,::1,1 port 52218 ssh2
+2025-06-02T15:40:05.230074-04:00 kali sshd-session[170804]:,usuarioinvalido,::1,1 port 52218 ssh2
+2025-06-02T15:40:05.241152-04:00 kali sshd-session[170804]:,usuarioinvalido,desconhecido,1 port 52218 [preauth]
+2025-06-02T15:40:05.436817-04:00 kali sshd-session[170810]:,usuarioinvalido,::1,1 port 52224 ssh2
+2025-06-02T15:40:05.622215-04:00 kali sshd-session[170810]:,usuarioinvalido,::1,1 port 52224 ssh2
+2025-06-02T15:40:05.780470-04:00 kali sshd-session[170810]:,usuarioinvalido,::1,1 port 52224 ssh2
+2025-06-02T15:40:05.793958-04:00 kali sshd-session[170810]:,usuarioinvalido,desconhecido,1 port 52224 [preauth]
+2025-06-02T15:40:05.938124-04:00 kali sshd-session[170821]:,usuarioinvalido,::1,1 port 52228 ssh2
+2025-06-02T15:40:06.091198-04:00 kali sshd-session[170821]:,usuarioinvalido,::1,1 port 52228 ssh2
+2025-06-02T15:40:06.243010-04:00 kali sshd-session[170821]:,usuarioinvalido,::1,1 port 52228 ssh2
+2025-06-02T15:40:06.258386-04:00 kali sshd-session[170821]:,usuarioinvalido,desconhecido,1 port 52228 [preauth]
+2025-06-02T16:07:26.071594-04:00 kali sshd-session[184506]:,usuarioinvalido,::1,1 port 41510 ssh2
+2025-06-02T16:07:30.934875-04:00 kali sshd-session[184506]:,usuarioinvalido,::1,1 port 41510 ssh2
+2025-06-02T16:07:32.632449-04:00 kali sshd-session[184506]:,usuarioinvalido,::1,1 port 41510 ssh2
+2025-06-02T16:07:32.644311-04:00 kali sshd-session[184506]:,usuarioinvalido,desconhecido,1 port 41510 [preauth]
+2025-06-02T16:10:08.946651-04:00 kali sshd-session[186221]:,usuarioinvalido,::1,1 port 48498 ssh2
+2025-06-02T16:10:12.593602-04:00 kali sshd-session[186221]:,usuarioinvalido,::1,1 port 48498 ssh2
+2025-06-02T16:10:17.842893-04:00 kali sshd-session[186221]:,usuarioinvalido,::1,1 port 48498 ssh2
+2025-06-02T16:10:18.039214-04:00 kali sshd-session[186221]:,usuarioinvalido,desconhecido,1 port 48498 [preauth]
