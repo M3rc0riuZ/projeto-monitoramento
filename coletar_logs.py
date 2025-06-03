@@ -1,5 +1,5 @@
 import csv
-
+#olá esse é meu comentario ! 
 # Caminho do log de autenticação
 LOG_PATH = "/var/log/auth.log"
 # Nome do CSV de saída
